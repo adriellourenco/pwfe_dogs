@@ -14,9 +14,19 @@
 </head>
 <body>
     <header>
-        <input type="text" placeholder="Digite uma raça" id="raca">
-
+        <input type="text" placeholder="Digite uma raça" id="raca" list="list-racas">
+        <datalist id="list-racas">
+            <option value="">beagle</option>
+            <option value="">boxer</option>
+            <option value="">doberman</option>
+            <option value="">pitbull</option>
+            <option value="">chihuahua</option>
+            <option value="">pug</option>
+            <option value="">puddle</option>
+            <option value="">shihtzu</option>
+        </datalist>
         <button id="pesquisar"><span class="material-icons">search</span></button>
+
     </header>
     <main>
         <div class="img-container" id="img-container">
